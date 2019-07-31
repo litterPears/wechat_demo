@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pageone/one",
+    "pages/cat/index",
+    "pages/user/index",
+    "components/swiper/swiper",
+    "pages/homes/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "惠买卖",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#404040",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#eee",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "dist/images/icon/icondex.png",
+        "selectedIconPath": "dist/images/icon/iconindex.png"
+      },
+      {
+        "pagePath": "pages/pageone/one",
+        "text": "分类",
+        "iconPath": "dist/images/icon/fen2.png",
+        "selectedIconPath": "dist/images/icon/fen1.png"
+      },
+      {
+        "pagePath": "pages/cat/index",
+        "text": "购物车",
+        "iconPath": "dist/images/icon/car2.png",
+        "selectedIconPath": "dist/images/icon/car1.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "dist/images/icon/user1.png",
+        "selectedIconPath": "dist/images/icon/user2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,4 @@
+/* components/main/main.wxss */
+.scrollView{
+  padding:0 15px;
+}

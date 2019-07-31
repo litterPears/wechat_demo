@@ -1,0 +1,26 @@
+/* components/nav/nav.wxss */
+.navigators{
+  min-height:50px;
+  padding:0 15px;
+  margin:10px auto;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.navItem{
+  margin:0 15px;
+  height:50px;
+  width:50px;
+}
+.imageBgs{
+  width:40px;
+  height:40px;
+  display:block;
+  margin:0 auto 5px;
+}
+.titles{
+  font-size:10px;
+  line-height:15px;
+  text-align:center;
+  color:#404040;
+}

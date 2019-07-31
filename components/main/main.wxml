@@ -1,0 +1,10 @@
+<!--components/main/main.wxml-->
+<scroll-view class="scrollView"
+  scroll-x="{{options.scrollX}}" 
+  upper-threshold="{{options.upperThreshold}}" 
+  scroll-with-animation="{{options.scrollWithAnimation}}" 
+  enable-back-to-top="enableBackToTop">
+
+  <view>111</view>
+
+</scroll-view>

@@ -1,0 +1,14 @@
+<!--components/poster/poster.wxml-->
+<view class="poster">
+  <swiper class="textPost" vertical="true" circular="true" duration="600" interval="3000" autoplay="true">
+    <swiper-item wx:for="{{postList}}" wx:for-item="post" wx:key="index">
+      <view class="textPost">
+        <view class="content">
+          <icon type="{{post.icon}}" size="20" class="iconClass"/>
+          <text class="textps">{{post.title}}</text>
+        </view>
+        <text class="timer">{{post.timer}}</text>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

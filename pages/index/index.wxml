@@ -1,0 +1,10 @@
+<view>
+  <!-- 轮播图部分 -->
+  <component-swiper></component-swiper>
+  <!-- nav部分 -->
+  <component-nav></component-nav>
+  <!-- 海报部分 -->
+  <component-post></component-post>
+  <!-- 下方的主题部分 -->
+  <component-main></component-main>
+</view>

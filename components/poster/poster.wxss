@@ -1,0 +1,37 @@
+/* components/poster/poster.wxss */
+.poster{
+  padding:10px 15px;
+  height:30px;
+  overflow: hidden;
+}
+.textPost{
+  height:30px;
+  line-height:30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#eee;
+  border-radius:15px;
+  padding:0 15px;
+}
+.textPost .content{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+}
+.iconClass{
+  height:20px;
+  margin:0 10px 0 0;
+}
+.textps{
+  width:200px;
+  font-size:13px;
+  color:#404040;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.timer{
+  font-size:10px;
+  color:#aaa;
+}

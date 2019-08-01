@@ -6,7 +6,7 @@
   width:180rpx;
   height:auto;
   float:left;
-  background:#ff0;
+  background:#eee;
 }
 .right{
   margin-left:200rpx;

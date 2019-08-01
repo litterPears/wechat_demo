@@ -1,0 +1,11 @@
+<!--components/rightNav/rightnav.wxml-->
+<view class="rightmains">
+    <view class="rightTitle">--{{titleValue}}--</view>
+    <view class="mains" wx:if="{{rightNav[valueNumber-1].length > 0}}">
+      <view class="picks" wx:for="{{rightNav[valueNumber-1]}}" wx:key="index">
+        <image class="imgSrc" src="{{item.img}}"/>
+        <view class="titles">{{item.title}}</view>
+      </view>
+    </view>
+    <view class="notexts" wx:else>无相关数据。。。。</view>
+</view>

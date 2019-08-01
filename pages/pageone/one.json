@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "component-leftnav":"../../components/leftNav/leftnav",
+    "component-rightnav": "../../components/rightNav/rightnav"
+  }
 }

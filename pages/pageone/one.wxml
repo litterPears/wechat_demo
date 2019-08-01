@@ -1,8 +1,8 @@
 <view class="mains">
     <view class="left">
-      
+      <component-leftnav bind:passValue="passValueFns"></component-leftnav>
     </view>
     <view class="right">
-
+      <component-rightnav valueNumber="{{valueNumber}}"></component-rightnav>
     </view>
 </view>

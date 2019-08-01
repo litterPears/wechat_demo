@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      valueNumber:1,
   },
 
   /**
@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  
+  passValueFns(e){
+    this.setData({
+      valueNumber: e.detail.pValue
+    })
   }
 })

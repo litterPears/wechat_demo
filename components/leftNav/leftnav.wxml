@@ -1,0 +1,6 @@
+<!--components/leftNav/leftnav.wxml-->
+<view class="componentUl">
+  <view wx:for="{{listNav}}" wx:key="index" class="titles {{item.id == tagClass?'titlebgs':''}}" bindtap="tables" data-keys="{{item.id}}">
+    {{item.title}}
+  </view>
+</view>

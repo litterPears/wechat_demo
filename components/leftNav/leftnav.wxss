@@ -1,0 +1,21 @@
+/* components/leftNav/leftnav.wxss */
+.componentUl{
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:100;
+  background:#eee;
+}
+.titles{
+  width:100%;
+  line-height:80rpx;
+  height:80rpx;
+  text-align:center;
+  font-size:24rpx;
+  margin:0 auto;
+  color:#404040;
+}
+.titlebgs{
+  background:#ffbe00;
+  color:#fff;
+}

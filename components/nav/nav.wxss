@@ -1,26 +1,27 @@
 /* components/nav/nav.wxss */
 .navigators{
-  min-height:50px;
-  padding:0 15px;
-  margin:10px auto;
+  min-height:160rpx;
+  padding:0 30rpx;
+  margin:20rpx auto;
   display:flex;
   justify-content:space-between;
   align-items: center;
+  overflow:hidden;
 }
 .navItem{
-  margin:0 15px;
-  height:50px;
-  width:50px;
+  margin:0 30rpx;
+  height:100rpx;
+  width:100rpx;
 }
 .imageBgs{
-  width:40px;
-  height:40px;
+  width:80rpx;
+  height:80rpx;
   display:block;
-  margin:0 auto 5px;
+  margin:0 auto 10rpx;
 }
 .titles{
-  font-size:10px;
-  line-height:15px;
+  font-size:20rpx;
+  line-height:30rpx;
   text-align:center;
   color:#404040;
 }

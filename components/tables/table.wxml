@@ -1,0 +1,26 @@
+<!--components/tables/table.wxml-->
+<view class="tableMain">
+  <view class="banners" bindtap="goload" data-url="{{defaultMessage.url}}">
+    <image class="images" src="{{defaultMessage.images}}" alt="{{defaultMessage.alt}}"/>
+  </view>
+  <view class="bannerTitle">
+    <view class="titles">
+      <image class="titleIcon" src="{{defaultMessage.icons}}"/>
+      <text>{{defaultMessage.title}}</text>
+    </view>
+    <text>更多 ></text>
+  </view>
+  <view wx:for="{{defaultMessage.lists}}" wx:key="index" wx:for-item="gat">
+    <navigator url="{{gat.urlHref}}" hover-class="navigator-hover" hover-stop-propagation="true" class="listMain">
+      <image class="listImg" src="{{gat.img}}" alt="加载失败"/>
+      <view class="listTitles"> 
+        <text class="gatName">{{gat.name}}</text>
+        <view class="payNumber">
+          <view>￥<text style="color:#f00;font-size:18px;">{{gat.pay}}</text></view>
+          <view class="contents">库存：<text class="cungat">{{gat.cun}}</text></view>
+        </view>
+        <text class="gatTitles">{{gat.title}}</text>
+      </view>
+    </navigator>
+  </view>
+</view>

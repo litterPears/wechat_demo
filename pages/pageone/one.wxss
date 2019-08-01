@@ -1,1 +1,14 @@
 /* pages/pageone/one.wxss */
+.mains{
+    width:100%;
+}
+.left{
+  width:180rpx;
+  height:auto;
+  float:left;
+  background:#ff0;
+}
+.right{
+  margin-left:200rpx;
+  height:auto;
+}

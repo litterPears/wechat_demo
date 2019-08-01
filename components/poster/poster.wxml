@@ -4,7 +4,7 @@
     <swiper-item wx:for="{{postList}}" wx:for-item="post" wx:key="index">
       <view class="textPost">
         <view class="content">
-          <icon type="{{post.icon}}" size="20" class="iconClass"/>
+          <icon type="{{post.icon}}" size="16" class="iconClass"/>
           <text class="textps">{{post.title}}</text>
         </view>
         <text class="timer">{{post.timer}}</text>

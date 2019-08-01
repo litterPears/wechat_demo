@@ -4,7 +4,7 @@
   upper-threshold="{{options.upperThreshold}}" 
   scroll-with-animation="{{options.scrollWithAnimation}}" 
   enable-back-to-top="enableBackToTop">
-
-  <view>111</view>
-
+  <view class="scrollMain">
+    <components-table wx:for="{{tablesList}}" default-message="{{item}}" wx:key="index"></components-table>
+  </view>
 </scroll-view>

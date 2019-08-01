@@ -1,6 +1,6 @@
 <!--components/nav/nav.wxml-->
 <view class="navigators">
-<view class="navItem" wx:for="{{navLists}}" wx:for-item="items" wx:key="items.id" bindtap="taburl" data-url="{{items.url}}">
+  <view class="navItem" wx:for="{{navLists}}" wx:for-item="items" wx:key="items.id" bindtap="taburl" data-url="{{items.url}}">
     <image class="imageBgs" src="{{items.imgSrc}}"/>
     <view class="titles">{{items.title}}</view>
   </view>

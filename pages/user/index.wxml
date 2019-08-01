@@ -1,2 +1,23 @@
-<!--pages/user/index.wxml-->
-<text>pages/user/index.wxml</text>
+<view class="userMain">
+    <view class="userHeader">
+      <view class="userCads">
+        <image class="useshezhi" src="../../dist/images/icon/shezhi.png"/>
+        设置
+      </view>
+      <view class="userNames">
+        <image class="userImg" src="../../dist/images/fen/3.jpg"/>
+        <view class="userTags">
+          <view class="titles">小豌豆</view>
+          <view class="ophone">13937145587</view>
+        </view>
+      </view>
+    </view>
+    <!-- 下方的用户信息 -->
+    <view class="usermains">
+      <view class='mains'>
+        <view class="mainTitle">
+            
+        </view>
+      </view>
+    </view>
+</view>
